@@ -1,5 +1,4 @@
 import { Calendar, Home, Inbox, Settings } from "lucide-react";
-
 import {
   Sidebar,
   SidebarContent,
@@ -13,9 +12,7 @@ import {
 } from "@/components/ui/sidebar";
 import Link from "next/link";
 import RootContextProvider from "@/contexts/RootContext/provider";
-import Chart from "../chart";
 
-// Menu items.
 const items = [
   {
     title: "Anasayfa",
@@ -73,7 +70,6 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
             </SidebarGroup>
           </SidebarContent>
         </Sidebar>
-        <Chart />
         <main className="px-4 w-full">{children}</main>
       </SidebarProvider>
     </RootContextProvider>
