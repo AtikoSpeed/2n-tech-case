@@ -26,7 +26,6 @@ import { generateID } from "@/lib/utils";
 const formSchema = z.object({
   name: z.string().min(1, "Gelir kaynağı girin"),
   limit: z.string().min(1, "Miktarı girin"),
-  category: z.string().min(1, "Kategori girin").optional(),
 });
 
 type CategoryFormValues = z.infer<typeof formSchema>;
@@ -38,7 +37,6 @@ type Props = {
 const _defaultValues: CategoryFormValues = {
   name: "",
   limit: "",
-  category: "",
 };
 export default function CategoryForm(props: Props) {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -50,11 +48,8 @@ export default function CategoryForm(props: Props) {
   });
 
   function onSubmit(values: CategoryFormValues) {
-    if (!values.category) {
-      values.category = "Default Category";
-    }
     if (props.data) {
-      root.updateExpenseCategory(props.data.id, {
+      root.updateIncomeCategory(props.data.id, {
         name: values.name,
         limit: parseInt(values.limit),
         id: props.data.id,
@@ -102,7 +97,7 @@ export default function CategoryForm(props: Props) {
             />
             <FormField
               control={form.control}
-              name="category"
+              name="name"
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>Kategori Adı</FormLabel>
