@@ -49,8 +49,20 @@ export default function Chart({
   console.log(chartConfig);
   const moneyByCategory = (
     categoryType === "expense" ? root.expenses : root.incomes
-  ).filter((category) => category);
-  console.log(moneyByCategory);
+  )
+    .filter((item) => item.category !== undefined)
+    .reduce((acc, item) => {
+      const category = acc.find((cat) => cat.category === item.category);
+      if (category) {
+        category.amount += item.amount;
+      } else {
+        acc.push({
+          category: item.category ?? "Kategori Yok",
+          amount: item.amount,
+        });
+      }
+      return acc;
+    }, [] as { category: string; amount: number }[]);
 
   const chartData = moneyByCategory.map((category) => ({
     category: category.category,
