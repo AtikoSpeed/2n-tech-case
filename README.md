@@ -32,10 +32,18 @@ npm run build  # Build for production
 ```
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/b84545da-7348-4029-95b9-759ff89a16bb)
-![image](https://github.com/user-attachments/assets/e27ad60b-2b33-4292-8aa1-a2a3c39e4ce6)
-![image](https://github.com/user-attachments/assets/f7fd4303-8951-448d-aa2e-7cbf55494a4d)
 
+<img src="https://github.com/user-attachments/assets/b84545da-7348-4029-95b9-759ff89a16bb" alt="Dashboard Overview" style="border-radius: 10px; margin-bottom: 20px;" />
+
+_Homepage showing income and expense charts for financial analysis_
+
+<img src="https://github.com/user-attachments/assets/e27ad60b-2b33-4292-8aa1-a2a3c39e4ce6" alt="Expenses Management" style="border-radius: 10px; margin-bottom: 20px;" />
+
+_Expense management interface with options to add new expenses and delete existing ones_
+
+<img src="https://github.com/user-attachments/assets/f7fd4303-8951-448d-aa2e-7cbf55494a4d" alt="Income Management" style="border-radius: 10px; margin-bottom: 20px;" />
+
+_Income management interface with features to add and delete income entries_
 
 ## Project Structure
 
