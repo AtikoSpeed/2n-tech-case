@@ -1,8 +1,8 @@
-# Financial Management Dashboard - 2N Tech Case Study
+# Financial Management Dashboard
 
 ## Overview
 
-This project is a financial management dashboard created as a take-home test for 2N Tech. It demonstrates modern web development practices using Next.js, React, and various UI components.
+This project is a financial management dashboard created as an example. It demonstrates modern web development practices using Next.js, React, and various UI components.
 
 ## Features
 
@@ -42,7 +42,3 @@ npm run build  # Build for production
 ## Author
 
 Author: AtikoSpeed
-
-## Note
-
-Created as a technical assessment for 2N Tech, demonstrating modern React patterns and TypeScript usage.
