@@ -31,6 +31,12 @@ npm run dev    # Start development server
 npm run build  # Build for production
 ```
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/b84545da-7348-4029-95b9-759ff89a16bb)
+![image](https://github.com/user-attachments/assets/e27ad60b-2b33-4292-8aa1-a2a3c39e4ce6)
+![image](https://github.com/user-attachments/assets/f7fd4303-8951-448d-aa2e-7cbf55494a4d)
+
+
 ## Project Structure
 
 - `components/` - UI components and layouts
