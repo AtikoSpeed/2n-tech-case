@@ -23,14 +23,6 @@ This project is a financial management dashboard created as an example. It demon
 - React Hook Form + Zod
 - Local Storage
 
-## Getting Started
-
-```bash
-npm install    # Install dependencies
-npm run dev    # Start development server
-npm run build  # Build for production
-```
-
 ## Screenshots
 
 <img src="https://github.com/user-attachments/assets/b84545da-7348-4029-95b9-759ff89a16bb" alt="Dashboard Overview" style="border-radius: 10px; margin-bottom: 20px;" />
@@ -44,6 +36,14 @@ _Expense management interface with options to add new expenses and delete existi
 <img src="https://github.com/user-attachments/assets/f7fd4303-8951-448d-aa2e-7cbf55494a4d" alt="Income Management" style="border-radius: 10px; margin-bottom: 20px;" />
 
 _Income management interface with features to add and delete income entries_
+
+## Getting Started
+
+```bash
+npm install    # Install dependencies
+npm run dev    # Start development server
+npm run build  # Build for production
+```
 
 ## Project Structure
 
